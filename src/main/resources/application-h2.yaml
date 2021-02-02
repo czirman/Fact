@@ -1,15 +1,5 @@
 # H2 in file configuration
 spring:
   datasource:
-    username: sa
-    password: sa
     url: jdbc:h2:file:~/data/fact
-    driverClassName: org.h2.Driver
 
-    jpa:
-      database-platform: org.hibernate.dialect.H2Dialect
-
-  h2:
-    console:
-      enabled: true
-      path: /h2fact
