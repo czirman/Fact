@@ -1,13 +1,9 @@
-# REMOVE after add first prop test only
-main:
-  test: test
-
-# H2 in memory configuration
+# H2 in file configuration
 spring:
   datasource:
     username: sa
     password: sa
-    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:file:~/data/fact
     driverClassName: org.h2.Driver
 
     jpa:
@@ -17,11 +13,3 @@ spring:
     console:
       enabled: true
       path: /h2fact
-
-
-
-
-
-
-
-
