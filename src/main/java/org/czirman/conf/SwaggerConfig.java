@@ -15,7 +15,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 
     private final static String PATH_CONTROLLER = "org.czirman";
-    //private final static String PATH_CONTROLLER = "org";
 
     @Bean
     public Docket api() {
